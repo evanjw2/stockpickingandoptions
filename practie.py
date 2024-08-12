@@ -1,7 +1,7 @@
 import yfinance as yf
 import pandas_ta as ta
 import matplotlib.pyplot as plt
-#%%
+
 # Function to fetch data from Yahoo Finance
 def fetch_data(ticker, start_date, end_date):
     data = yf.download(ticker, start=start_date, end=end_date)
