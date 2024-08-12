@@ -2,7 +2,7 @@ import numpy as np
 from scipy.stats import norm
 import tkinter as tk
 from tkinter import messagebox
-#%%
+
 def black_scholes(S, X, T, r, sigma, option_type="call"):
     d1 = (np.log(S / X) + (r + 0.5 * sigma ** 2) * T) / (sigma * np.sqrt(T))
     d2 = d1 - sigma * np.sqrt(T)
