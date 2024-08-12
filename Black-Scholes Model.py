@@ -1,7 +1,7 @@
 
 import numpy as np
 from scipy.stats import norm
-#%%
+
 def black_scholes(S, X, T, r, sigma, option_type="call"):
     """
     Calculate the Black-Scholes option price.
